@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    This Feature tests the Add Employee functionality",
+    "keyword": "Feature",
+    "name": "Add User Functionality",
+    "line": 1,
+    "id": "add-user-functionality",
+    "tags": [],
+    "uri": "AddUser.feature",
+    "elements": [
+      {
+        "id": "add-user-functionality;as-a-react-app-user,-i-want-to-add-an-employee-and-see-it-on-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a react-app user, I want to add an employee and see it on the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user has logged in and is on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the clicks the Add Employee Button",
+            "result": {
+              "status": "passed",
+              "duration": 3201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user fills in the fields on the form",
+            "result": {
+              "status": "passed",
+              "duration": 1234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks the Add Button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user shall see the employee added to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

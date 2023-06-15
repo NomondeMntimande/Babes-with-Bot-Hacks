@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;as-a-react-app-user,-i-want-to-login-with-valid-creds-in-order-to-see-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a react-app user, I want to login with valid creds in order to see the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user on the react-app landing page",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user is on the login screen",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user executes a login",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 1458000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;as-a-react-app-user,-i-want-to-to-see-an-error-when-i-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a react-app user, I want to to see an error when I login with invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user on the react-app landing page",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the user is on the login screen",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user executes a login with invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user shall see an error modal",
+            "result": {
+              "status": "passed",
+              "duration": 1460000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "description": "    This Feature tests logout scenarios",
+    "keyword": "Feature",
+    "name": "Logout Functionality",
+    "line": 1,
+    "id": "logout-functionality",
+    "tags": [],
+    "uri": "Logout.feature",
+    "elements": [
+      {
+        "id": "logout-functionality;as-a-react-app-user,-i-want-to-logout",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a react-app user, I want to logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user has logged in and is on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user executes a logout",
+            "result": {
+              "status": "passed",
+              "duration": 3178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user sees the logout confirmation pop up",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logout-functionality;as-a-react-app-user,-i-to-be-able-to-cancel-logging-out-of-my-session",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a react-app user, I to be able to cancel logging out of my session",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user has logged in and is on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "the user is in the logout confirmation screen",
+            "result": {
+              "status": "passed",
+              "duration": 3378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user cancels the logout",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logout-functionality;as-a-react-app-user,-i-to-be-able-to-confirm-logging-out-of-my-session",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "As a react-app user, I to be able to confirm logging out of my session",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user has logged in and is on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user is in the logout confirmation screen",
+            "result": {
+              "status": "passed",
+              "duration": 3379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user confirms the logout",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user is on the login screen",
+            "result": {
+              "status": "passed",
+              "duration": 1449000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
